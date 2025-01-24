@@ -33,7 +33,7 @@ export default function LandingPage(){
                     <div className='flex flex-col justify-center lg:items-start'>
                         <div className='flex gap-2 text-left '>
                             <CheckCircleOutlineIcon fontSize="small"/>
-                            <h1>Hold upto 6 cards</h1>
+                            <h1>Hold upto 6 Cards</h1>
                         </div>
                         <div className='flex gap-2 text-left '>
                             <CheckCircleOutlineIcon fontSize="small"/>
