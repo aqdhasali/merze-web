@@ -17,7 +17,7 @@ export default function LandingPage(){
     
             </div>
 
-            <div className="flex flex-col-reverse lg:flex-row items-center lg:gap-44 mt-5">
+            <div className="flex flex-col-reverse lg:flex-row lg:justify-between items-center  mt-5">
                 <div className='flex flex-col gap-5 items-center lg:items-start'>
                     <div className='flex flex-col gap-5'>
                         <h1 className={`${roboto.className} text-5xl text-center lg:text-left font-bold`}>
