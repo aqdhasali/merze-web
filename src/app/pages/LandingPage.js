@@ -57,7 +57,7 @@ export default function LandingPage(){
                 </div>
                 
                 
-                <img className="w-1/2" src='merz-img.png'/>
+                <img className=" w-96 lg:w-1/2" src='merz-img.png'/>
                 
                
                 
