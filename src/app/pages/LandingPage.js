@@ -17,8 +17,8 @@ export default function LandingPage(){
     
             </div>
 
-            <div className="flex flex-col-reverse lg:flex-row lg:justify-between items-center  mt-5">
-                <div className='flex flex-col gap-5 items-center lg:items-start'>
+            <div className="flex flex-col-reverse lg:flex-row lg:justify-between items-center">
+                <div className='flex flex-col gap-5 items-center lg:items-start mt-5'>
                     <div className='flex flex-col gap-5'>
                         <h1 className={`${roboto.className} text-5xl text-center lg:text-left font-bold`}>
                         Meet MERZ Wallet,<br/>
@@ -56,9 +56,10 @@ export default function LandingPage(){
                     
                 </div>
                 
-                <div>
-                    <img src='merz-img.png'/>
-                </div>
+                
+                <img className="w-1/2" src='merz-img.png'/>
+                
+               
                 
                 
 
