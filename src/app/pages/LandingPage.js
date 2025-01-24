@@ -17,29 +17,29 @@ export default function LandingPage(){
     
             </div>
 
-            <div className="flex flex-col-reverse lg:flex-row items-center justify-center mt-7">
-                <div className='flex flex-col gap-5'>
+            <div className="flex flex-col-reverse lg:flex-row items-center lg:gap-44 mt-5">
+                <div className='flex flex-col gap-5 items-center lg:items-start'>
                     <div className='flex flex-col gap-5'>
-                        <h1 className={`${roboto.className} text-4xl text-center lg:text-left font-bold`}>
+                        <h1 className={`${roboto.className} text-5xl text-center lg:text-left font-bold`}>
                         Meet MERZ Wallet,<br/>
                         Sleek. Secure. Smart
                         </h1>
 
-                        <h1 className='text-gray-400 text-center lg:text-left'> Minimalist design, maximum functionality.
+                        <h1 className='text-gray-400 text-center lg:text-left'> Minimalist design, maximum functionality.<br/>
                         Your everyday essential redefined</h1>
                     </div>
 
 
-                    <div className='flex flex-col items-center lg:items-start'>
-                        <div className='flex gap-2  '>
+                    <div className='flex flex-col justify-center lg:items-start'>
+                        <div className='flex gap-2 text-left '>
                             <CheckCircleOutlineIcon fontSize="small"/>
                             <h1>Hold upto 6 cards</h1>
                         </div>
-                        <div className='flex gap-2 '>
+                        <div className='flex gap-2 text-left '>
                             <CheckCircleOutlineIcon fontSize="small"/>
                             <h1>RFID Blocked</h1>
                         </div>
-                        <div className='flex gap-2 '>
+                        <div className='flex gap-2 text-left'>
                             <CheckCircleOutlineIcon fontSize="small"/>
                             <h1>Cash Strap</h1>
                         </div>
