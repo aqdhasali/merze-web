@@ -18,7 +18,7 @@ export default function LandingPage(){
             </div>
 
             <div className="flex flex-col-reverse lg:flex-row lg:justify-between items-center mt-20 lg:mt-0">
-                <div className='flex flex-col gap-5 items-center lg:pl-20 p-12 lg:items-start lg:mt-5'>
+                <div className='flex flex-col gap-y-10 items-center lg:pl-20 p-12 lg:items-start lg:mt-0'>
                     <div className='flex flex-col gap-5'>
                         <h1 className={`${roboto.className} text-2xl md:text-4xl lg:text-5xl text-center lg:text-left font-bold`}>
                         Meet MERZ Wallet,<br/>
